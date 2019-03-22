@@ -9,4 +9,4 @@
 
 #### Basic Portfolio Template created in order to build upon with content in the future. Spent a lot of time trying to implement clean responsive web design for computer monitors
 
-#####Copyright MIT
+##### Copyright MIT
