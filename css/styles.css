@@ -11,10 +11,11 @@
   border-width: 4px;
   border-color: black;
 }
-
+.col{
+  padding:0%;
+}
 #parentR{
-  height:inherit;
-  position: relative;
+  height: inherit;
 }
 
 #parentR .borderW{
@@ -32,10 +33,13 @@
   border-left: none;
 }
 
-.row #picR{
+
+.row #test{
   height:20%;
 }
-
+#colTest{
+  height:100%;
+}
 
 #profCol #profPic{
   height:100px;
@@ -62,7 +66,6 @@
 .grayBac{
   background-color: rgba(211,211,211,125);
 }
-
 .gutter{
 }
 .row.gutter#picR > [class*="grayBac"]{
@@ -74,10 +77,30 @@
   padding-bottom: 5%;
   padding-top: 0%;
 }
+#test > [class*="grayBac"]{
+  padding-left: 0%;
+  padding-right: 1.6667%;
+  padding-bottom: 1.6667%;
+  padding-top: 1.6667%;
+}
+#content > [class*="grayBac"]{
+  padding-left: 0%;
+  padding-right: 1.6667%;
+  padding-bottom: 1.6667%;
+  padding-top: 0%;
+}
+.row #picR{
+  height:20%;
+}
 .row #menuR{
   height: 80%;
 }
-
+.contentDiv{
+  height:100%;
+}
+#content{
+  height:80%;
+}
 .menuDiv{
   height:100%;
 }
@@ -99,6 +122,12 @@
   padding-top: 1%;
   align-content: center;
   padding-left: 5%;
+}
+#testDiv{
+  height:100%;
+}
+a{
+  color:black;
 }
 @media screen and (max-width:1919px){
     .container{
