@@ -3,6 +3,9 @@
   <head>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    </script>
+    <script type="text/javascript" src="js/scripts.js"></script>
     <meta charset="utf-8">
     <title>Portfolio</title>
   </head>
@@ -28,7 +31,13 @@
                   <div class="drawLineMenu"></div>
                 </div>
                 <ul class="projectList">
-                  <a href="https://github.com/ScoutPilgrim/coa"><li class="projectElem"><h3 class="listText">Non-Profit Website</h3></li></a>
+                  <li class="projectElem">
+                    <h3 class="listText">Non-Profit Website</h3>
+                    <div class="dropDown">
+                      <p>A website created using angular5</p>
+                      <a href="https://github.com/ScoutPilgrim/coa"><p>GitHub Link</p></a>
+                    </div>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -39,26 +48,58 @@
             <div class="col grayBac" id="colTest">
               <div class="centerW colBac" id="testDiv">
                 <div class="centerW colBac menuDiv">
-                  <h2 class="subMenuText">About Me:</h2>
+                  <h2 class="subMenuText">About Me</h2>
                   <div class="lineSep">
                     <div class="drawLineMenu"></div>
                   </div>
+                  <span class="leftW">
+                    <p class="aboutMe"><strong>Hi there!</strong> My name is Ian Christner and I am an aspiring programmer who is excited to <em>share his skills</em> and <em>learn from others</em> in a professional environment</p>
+                </span>
                 </div>
               </div>
             </div>
           </div>
           <div class="row gutter" id="content">
-            <div class="grayBac floatContainer">
-              <div class="columnF colBac float-left borderWL">
-
+              <div class="columnF grayBac float-left">
+                <div class="colBac centerW floatDiv">
+                  <h3 class="subMenuText">Skills</h3>
+                  <div class="lineSep">
+                    <div class="drawLineMenu"></div>
+                  </div>
+                  <ol class="skillList">
+                    <li><h4 class="listText">C++</h4></li>
+                    <li><h4 class="listText">C</h4></li>
+                    <li><h4 class="listText">Java</h4></li>
+                    <li><h4 class="listText">Javascript</h4></li>
+                    <li><h4 class="listText">Node JS</h4></li>
+                    <li><h4 class="listText">Angular5</h4></li>
+                  </ol>
+                </div>
               </div>
-              <div class="columnF colBac float-left borderWTB">
-
+              <div class="columnF grayBac float-left">
+                <div class="colBac centerW floatDiv">
+                  <h3 class="subMenuText">Education</h3>
+                  <div class="lineSep">
+                    <div class="drawLineMenu"></div>
+                  </div>
+                  <ul class="eduList projectList">
+                    <li><h5 class="listText">UC Santa Cruz - <em>Graduated Sept 2017</em></h5></li>
+                    <li><h5 class="listText">Degree - <em>BS Computer Science: Computer Game Design</em></h5></li>
+                  </ul>
+                </div>
               </div>
-              <div class="columnF colBac float-left borderWR">
-
+              <div class="columnF grayBac float-left">
+                <div class="colBac centerW floatDiv">
+                  <h3 class="subMenuText">Experience</h3>
+                  <div class="lineSep">
+                    <div class="drawLineMenu"></div>
+                  </div>
+                  <ul class="eduList projectList">
+                    <li><h5 class="listText">Non-Profit Web Design Intern - <em>March 2018 - july 2018</em></h5></li>
+                    <li><h5 class="listText">Cali State Parks IT Assistant <em>June 2018 - October 2018 Design</em></h5></li>
+                  </ul>
+                </div>
               </div>
-            </div>
           </div>
         </div>
       </div>
