@@ -209,7 +209,9 @@ ul{
 .dropDown{
   height: 0px;
   overflow: hidden;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2)
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  margin-bottom: 5%;
+  padding-left:5%; 
 }
 .autoHeight{
   height: auto;
